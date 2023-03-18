@@ -129,7 +129,7 @@ header.shadow {
 }
 .social a {
   margin-bottom: 1rem;
-  font-size: 22px;
+  font-size: 27px;
   color: var(--text-color);
 }
 .social a:hover {
@@ -347,16 +347,16 @@ form textarea {
   min-width: 20vh;
 }
 #contact .contact-items {
-  width: 100%;
+  width: 80%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
   margin: 0;
 }
 #contact .contact-item {
-  width: 30%;
+  width: 10%;
   margin: 0;
-  flex-direction: row;
+  flex-direction: column;
 }
 #contact .contact-item .icon {
   height: 100px;
@@ -367,8 +367,8 @@ form textarea {
 }
 #contact .contact-item .contact-info {
   width: 100%;
-  text-align: left;
-  padding-left: 20px;
+  text-align:left;
+  padding-left: 10px;
 }
 #contact .contact {
 	flex-direction: column;
@@ -403,7 +403,7 @@ form textarea {
 	margin-bottom: 10px;
 }
 #contact .contact-info h1 {
-	font-size: 2.5rem;
+	font-size: 1.5rem;
 	font-weight: 500;
 	margin-bottom: 5px;
 }
@@ -559,3 +559,4 @@ form textarea {
     margin-left: 25%;
   }
 }
+
